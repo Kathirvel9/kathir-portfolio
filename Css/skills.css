@@ -1,0 +1,121 @@
+/* ===== Skills Section ===== */
+.skills{
+  height:100vh;
+  width:80vw;
+}
+.skills-section {
+    width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+    background: #9394ad;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  .skills-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill p {
+    margin: 0 0 8px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  /* Progress Bar */
+  .skill-bar {
+    background: #cfcedb;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 18px;
+  }
+  
+  .skill-level {
+    height: 100%;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 18px;
+    color: white;
+    font-size: 12px;
+    border-radius: 25px;
+  }
+  
+  /* Specific Skill Levels */
+  .skill-level.html {
+    width: 90%;
+    background: #f16529; /* HTML orange */
+  }
+  
+  .skill-level.css {
+    width: 85%;
+    background: #2965f1; /* CSS blue */
+  }
+  
+  .skill-level.js {
+    width: 75%;
+    background: #f7df1e; /* JS yellow */
+    color: #000;
+  }
+  
+  .skill-level.react {
+    width: 70%;
+    background: #61dbfb; /* React cyan */
+    color: #000;
+  }
+  .skill-level.java {
+    width: 85%;
+    background: #961275; /* Java pink */
+    color: #000;
+  }
+  .skill-level.spring {
+    width: 70%;
+    background: #0ec745; /* sprinboot green */
+    color: #000;
+  }
+  .skill-level.sql {
+    width: 90%;
+    background: #b90e0e; /* sql red */
+    color: #000;
+  }
+  
+  /* ===== Responsive (small screens) ===== */
+  /* ============================== */
+@media (max-width: 320px) {
+  .skills {
+    padding: 20px 10px;
+  }
+
+  .skills-section {
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .skills-section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .skill {
+    margin-bottom: 15px;
+  }
+
+  .skill p {
+    font-size: 14px;
+  }
+
+  .skill-bar {
+    height: 8px;
+  }
+
+  .skill-level {
+    border-radius: 6px;
+  }
+}
+  

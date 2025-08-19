@@ -1,0 +1,135 @@
+/* ===== Projects Section ===== */
+
+body{
+    padding:0px;
+    margin:0px;
+}
+.project{
+    width:100vw;
+    height:100vh;
+    color:#45a049;
+padding:20px;
+
+}
+.projects-section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 50px;
+    padding-bottom:100px ;
+    text-align: center;
+    background-color: #1e5091;
+    border-radius: 10px;
+  }
+  
+  .projects-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Grid container */
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Project Card */
+  .project-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .project-info {
+    padding: 15px;
+  }
+  
+  .project-info h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #222;
+  }
+  
+  .project-info p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Button */
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #45a049;
+  }
+  
+  /* ===== Responsive ===== */
+  @media (max-width: 600px) {
+    .projects-section h2 {
+      font-size: 22px;
+    }
+  
+    .project-info h3 {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 320px) {
+    .project {
+      padding: 20px 10px;
+    }
+  
+    .projects-section h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  
+    .projects-container {
+      grid-template-columns: 1fr; /* Stack cards vertically */
+      gap: 15px;
+    }
+  
+    .project-card img {
+      height: 140px; /* Smaller image for small screens */
+    }
+  
+    .project-info {
+      padding: 10px;
+    }
+  
+    .project-info h3 {
+      font-size: 16px;
+    }
+  
+    .project-info p {
+      font-size: 12px;
+    }
+  
+    .btn {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+  }
+  
