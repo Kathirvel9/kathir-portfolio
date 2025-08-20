@@ -201,17 +201,18 @@ header {
 }
 
 .section-container-1 h1 {
-  font-size: 26px;
+  font-size: 45px;
   margin-bottom: 10px;
 }
 
 .section-container-1 h2 {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 .section-container-1 h2 span {
   color: #4CAF50;
+  font-size: 20px;
 }
 
 .section-container-1 p {

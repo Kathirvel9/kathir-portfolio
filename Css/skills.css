@@ -1,7 +1,8 @@
 /* ===== Skills Section ===== */
 .skills{
   height:100vh;
-  width:80vw;
+  width:100vw;
+  color:#a3b8e9
 }
 .skills-section {
     width: 90%;
